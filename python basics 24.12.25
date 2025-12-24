@@ -1,0 +1,54 @@
+"""num = int(input("enter the number: "))
+if num % 2 == 0:
+    print("the number is even")
+else:
+    print("the number is odd")
+
+print("this is my first python code")
+
+age = 10
+height = 11
+age = float(age)
+print(age)
+height = float(height)
+print(height)
+
+
+a = int(input("enter the first number: "))
+if a>0:
+    print("it is positive number")
+elif a<0:
+    print("it is negitive number")
+else:
+    print("it is 0")
+
+age = int(input("enter your age: "))
+if age >= 18:
+    print("you are eligible for vote")
+else:
+    print("you are not eligible for vote")
+
+
+num1 = int(input("enter the first number: "))
+num2 = int(input("enter the second number: "))
+print("sum =", num1 + num2)"""
+
+a = int(input("enter the first number: "))
+b = int(input("enter the second number: "))
+
+if a>b:
+    print("a is larger number")
+else:
+    print("b is larger number")
+
+
+
+
+
+
+
+
+
+
+
+
