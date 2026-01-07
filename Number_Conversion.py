@@ -1,6 +1,6 @@
 # Complete Number System Converter
 
-print(" NUMBER SYSTEM CONVERTER BY SRINIVAS")
+print(" NUMBER SYSTEM CONVERTER BY DEVENDRA")
 print("Supported Bases:")
 print("2  -> Binary")
 print("8  -> Octal")
