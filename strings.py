@@ -1,7 +1,7 @@
 # String initialization
 s1 = "Hello"
-s2 = 'Python'
-s3 = """Welcome to string demo"""
+s2 = 'devendra '
+s3 = """Welcome to python class"""
 
 print("s1 =", s1)
 print("s2 =", s2)
@@ -9,21 +9,21 @@ print("s3 =", s3)
 print()
 
 # Accessing strings (indexing)
-print("First character of s1:", s1[0])        # H
-print("Last character of s1:", s1[-1])        # o
+print("First character of s1:", s2[0])        # H
+print("Last character of s1:", s2[-1])        # o
 print()
 
 # Basic operations
 # Concatenation
-s4 = s1 + " " + s2
+s4 = s1 + " " + s2 + " " + s3
 print("Concatenation (s1 + ' ' + s2):", s4)
 
 # Repetition
-s5 = s1 * 3
+s5 = s2 * 55
 print("Repetition (s1 * 3):", s5)
 
 # Length
-print("Length of s3:", len(s3))
+print("Length of s3:", len(s1))
 
 # Membership
 print("'Py' in s2?", "Py" in s2)
@@ -43,7 +43,7 @@ print("text[::-1]  =", text[::-1])    # reverse
 print()
 
 # String functions and methods
-sample = "   hello python world   "
+sample = "   it is my first class   "
 print("Original sample: '", sample, "'", sep="")
 
 # strip: remove leading/trailing spaces
@@ -89,9 +89,9 @@ s3 = Welcome to python class
 First character of s1: d
 Last character of s1:  
 
-Concatenation (s1 + ' ' + s2): Hello devendra 
-Repetition (s1 * 3): devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra 
-Length of s3: 23
+Concatenation (s1 + ' ' + s2): Hello devendra  Welcome to python class
+Repetition (s1 * 3): devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra devendra 
+Length of s3: 5
 'Py' in s2? False
 'java' not in s2? True
 
@@ -103,11 +103,11 @@ text[-4:]   = ming
 text[::2]   = Pormig
 text[::-1]  = gnimmargorP
 
-Original sample: ' it is my first class  '
+Original sample: '   it is my first class   '
 strip()       -> 'it is my first class'
-upper()       ->  IT IS MY FIRST CLASS  
-lower()       ->  it is my first class  
-replace('python', 'Java') ->  it is my first class  
+upper()       ->    IT IS MY FIRST CLASS   
+lower()       ->    it is my first class   
+replace('python', 'Java') ->    it is my first class   
 split() -> ['it', 'is', 'my', 'first', 'class']
 '-'.join(words) -> it-is-my-first-class
 find('python') -> -1
