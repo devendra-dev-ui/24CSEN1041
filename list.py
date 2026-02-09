@@ -15,3 +15,18 @@ print(len(list_1[4]))
 1
 
 === Code Execution Successful ===
+
+a = [1, 2, 3, 4, 5]
+b = ['apple', 'banana', 'jack fruit'] 
+c = [1, 'hello', 3.14, True]
+
+print(a)
+print(b)
+print(c)
+
+#output
+[1, 2, 3, 4, 5]
+['apple', 'banana', 'jack fruit']
+[1, 'hello', 3.14, True]
+
+=== Code Execution Successful ===
